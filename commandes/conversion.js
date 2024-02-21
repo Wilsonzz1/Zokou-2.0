@@ -400,7 +400,7 @@ zokou({ nomCom: "trd", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
       
      
 
-       if(!arg || !arg[0]) { repondre('indiquer le language dans lequel vous voulez traduire (ex :  fr , en)') ; return }
+       if(!arg || !arg[0]) { repondre('indiquer le language dans lequel vous voulez traduire (ex :  en , en)') ; return }
    
 
          let texttraduit = await traduire(msgRepondu.conversation , {to : arg[0]}) ;
